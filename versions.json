@@ -22,6 +22,12 @@
         "base": "alpine",
         "baseVersion": "3.20",
         "phpVersion": "8.2"
+      },
+      "unit": {
+        "variant": "unit",
+        "base": "unit",
+        "baseVersion": "bookworm",
+        "phpVersion": "8.2"
       }
     }
   },
@@ -47,6 +53,12 @@
         "variant": "fpm-alpine",
         "base": "alpine",
         "baseVersion": "3.20",
+        "phpVersion": "8.2"
+      },
+      "unit": {
+        "variant": "unit",
+        "base": "unit",
+        "baseVersion": "bookworm",
         "phpVersion": "8.2"
       }
     }
