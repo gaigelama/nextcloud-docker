@@ -1,5 +1,5 @@
 # DO NOT EDIT: created by update.sh from Dockerfile-unit.template
-FROM unit:1.32.1-php8.2
+FROM unit:1.33.0-php8.2
 
 # make nginx-unit co-operate with the nextcloud entrypoint
 RUN set -ex; \
